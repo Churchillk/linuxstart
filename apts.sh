@@ -43,13 +43,17 @@ https://github.com/simondankelmann/Bluetooth-LE-Spam.git
 #end BTSPAM
 
 #Applejuice
-https://github.com/ECTO-1A/AppleJuice.git
+git clone https://github.com/ECTO-1A/AppleJuice.git
 cd ./Applejuice
 apt install -y bluez libpcap-dev libev-dev libnl-genl-3-dev libnl-route-3-dev cmake libbluetooth-dev
 pip3 install git+https://github.com/pybluez.git#egg=pybluez
 pip3 install pycryptodome
 pip3 install -r requirements
 #End Applejuice
+
+#wordlis
+git clone https://github.com/kkrypt0nn/wordlists.git
+#end wordlist
 
 #pips
 pip install pynput
