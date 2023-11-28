@@ -67,6 +67,7 @@ pip install mysql.connector
 pip install faker
 pip install pywhatkit
 pip install selenium
+pip install capstone #for reverse enginnering
 pip install aws
 
 #end pips
