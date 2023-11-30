@@ -10,6 +10,9 @@ apt install tor
 apt install docker.io -y
 apt install virtualbox
 
+dpkg --add-architecture i386 && apt-get sduo update &&
+sudo apt-get install wine32:i386
+
 #QRLJERKING
 git clone https://github.com/OWASP/QRLJacking.git
 #END QRLJERKING
