@@ -17,6 +17,11 @@ sudo apt-get install wine32:i386
 git clone https://github.com/OWASP/QRLJacking.git
 #END QRLJERKING
 
+#tesseract for extracting text
+sudo apt-get update
+sudo apt-get install tesseract-ocr
+#end
+
 #ANONSURF
 git clone https://github.com/Und3rf10w/kali-anonsurf.git
 #END ANONSURF
@@ -59,8 +64,11 @@ git clone https://github.com/kkrypt0nn/wordlists.git
 #end wordlist
 
 #pips
+exit
 pip install pynput
 pip install pyautogui
+pip install tensor flow
+pip install pyplot
 pip install pandas
 pip install numpy
 pip install matplotlib
@@ -72,5 +80,7 @@ pip install pywhatkit
 pip install selenium
 pip install capstone #for reverse enginnering
 pip install aws
+pip install pytesseract Pillow #for text extraction
+
 
 #end pips
