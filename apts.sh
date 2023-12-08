@@ -81,6 +81,7 @@ pip install selenium
 pip install capstone #for reverse enginnering
 pip install aws
 pip install pytesseract Pillow #for text extraction
+pip install whitenoise # for dealing with static files in django
 
 
 #end pips
